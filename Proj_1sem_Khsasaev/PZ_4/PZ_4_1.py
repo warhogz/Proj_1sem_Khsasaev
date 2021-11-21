@@ -1,7 +1,7 @@
 #Дано целое число N (>0). Найти сумму 1 + 1/2 + 1/3 + ... + 1/N
 
 val = input("Введите целое число: ")
-while type(val) != int:
+while type(val) != int: #обработчик условий
     try:
          val = int(val)
          if val < 0:
