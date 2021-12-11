@@ -16,5 +16,5 @@ b = []
 for i  in range(len(a)):
     if (i + 1) % 2 != 0:
         b.append(a[i])
-print("Список содержимого: ", len(b))
+print("Список содержимого и его размер: ", len(b))
 print(b)
