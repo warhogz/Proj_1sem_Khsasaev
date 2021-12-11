@@ -1,6 +1,9 @@
-vcb = {'весна': 'spring', 'зима': 'winter', 'вода': 'water', 'лошадь': 'help',
-       'дерево': 'tree', 'отношения': 'relationships', 'переводчик': 'translator', 'сложно': 'difficult',
-       'любовь': 'love', ' цена': 'price'}
+# Организовать словарь на 10 англо-русских слов, обеспечивающий
+# "перевод" английского слова на русский.
+
+vcb = {'love': 'любовь', 'winter': 'зима', 'water': 'вода', 'help': 'помощь',
+       'tree': 'дерево', 'relationships': 'отношения', 'translator': 'переводчик', 'difficult': 'сложно',
+       'spring': 'весна', 'price': 'цена'}
 
 print('Добро пожаловать!')
 while True:
@@ -10,7 +13,7 @@ while True:
             print('До свидания.')
             break
         print(search + ' - ' + vcb[search])
-        print('RUS' + (' ' * (len(search))) + 'ENG')
+        print('ENG' + (' ' * (len(search))) + 'RUS')
         print()
     except KeyError:
         print('Ошибка. Слова не существует в вокабуляре программы')
