@@ -12,6 +12,6 @@ if textLen > 0:
         if (text[i]) == ' ' and text[i - 1] != ' ':
             num += 1
 
-    print(num + 1)
+    print('Количество слов в строке: ', num + 1)
 else:
     print('Вы не ввели текст!')
